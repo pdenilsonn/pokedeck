@@ -1,0 +1,49 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.imageLogo {
+    transition: 0.5s ease-in-out;
+}
+
+.logo:hover {
+    .imageLogo {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    margin-bottom: 1.5rem;
+    background-color: rgb(59, 59, 59);
+    color: rgb(223, 223, 223);
+}
+
+.navbar ul {
+    
+    display: flex;
+    gap: 5rem;
+}
+
+.navbar li {
+    font-weight: 600;
+    padding: 0.2rem;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar li:hover {
+    border-bottom: 3px solid red;
+}
+
+.navbar span {
+    color: red;
+}
+
